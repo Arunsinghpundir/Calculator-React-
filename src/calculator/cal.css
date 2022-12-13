@@ -1,0 +1,59 @@
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  padding: 47px;
+  margin: -46px 61px 0 -32px;
+  text-align: center;
+}
+.key-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.wide {
+  width: 171px;
+  border-radius: 50px;
+}
+.symbolBtn {
+  display: flex;
+  flex-direction: column;
+  margin: 128px 0px 0px -107px;
+}
+.top-btn {
+  padding: 0px;
+}
+.bottom {
+  position: absolute;
+  left: -36px;
+  top: 355px;
+  padding: 37px;
+  margin: 10px;
+}
+.big-btn {
+  font-size: 20px;
+}
+.org-btn {
+  background-color: rgba(255, 166, 0, 0.767);
+  color: black;
+  font-weight: bold;
+}
+.white-btn {
+  background-color: rgba(181, 177, 177, 0.883);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.output-box {
+  overflow: hidden;
+  height: 70px;
+  text-align: right;
+  padding-right: 20px;
+  max-width: 95%;
+}
+.cal-box {
+  font-size: 35px;
+  margin-top: 10px;
+}
+.output {
+  color: rgba(181, 177, 177, 0.883);
+}
