@@ -3,11 +3,9 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -53,6 +51,7 @@ button {
 }
 button:hover {
   border-color: #646cff;
+  filter: drop-shadow(0 0 4px #646cffaa);
 }
 button:focus,
 button:focus-visible {
@@ -69,5 +68,14 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .div {
+    margin-bottom: 100px;
+  }
+
+  .output-box {
+    margin-bottom: 50px;
   }
 }

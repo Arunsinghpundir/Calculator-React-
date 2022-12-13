@@ -1,4 +1,5 @@
 import {  useState } from 'react';
+import Header from '../Header/Header';
 import './cal.css';
 
 function Calculator() {
@@ -17,13 +18,6 @@ function Calculator() {
     // Calculation Part
     const symbol = ['+','-','/','*','.'];
     const updateCal = value=>{
-      // if(calculation.slice(-1)==="+") 
-      // return setCalculation(calculation.push("+"));
-
-      // else if(calculation.slice(-1)==="-") return setCalculation(calculation.push("-"));
-      // else if(calculation.slice(-1)==="/") return setCalculation(calculation.push("/"));
-      // else if(calculation.slice(-1)==="*") return setCalculation(calculation.push("*"));
-      
         if(symbol.includes(value) && calculation === ''){
             return;
         }
@@ -45,6 +39,7 @@ function Calculator() {
     }
     return (
       <div className="container">
+        <Header/>
         <div className="output-box">
             <div className='output' >{output? <strong>{output}</strong>:""}</div>
             <div className='cal-box'>{calculation}</div>
