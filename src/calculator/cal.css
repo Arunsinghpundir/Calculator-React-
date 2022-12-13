@@ -5,11 +5,13 @@
   margin: -46px 61px 0 -32px;
   text-align: center;
 }
+
 .key-box {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-top: -20px;
 }
 .wide {
   width: 171px;
@@ -44,6 +46,7 @@
   font-weight: bold;
 }
 .output-box {
+  margin-top: 40px;
   overflow: hidden;
   height: 70px;
   text-align: right;
@@ -56,4 +59,7 @@
 }
 .output {
   color: rgba(181, 177, 177, 0.883);
+}
+.container {
+  margin-top: 0;
 }
